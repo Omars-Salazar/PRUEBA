@@ -59,3 +59,39 @@ public class carro {
     }
 
 }
+
+
+
+
+package javaapplication1;
+
+/**
+ *
+ * @author sistemas
+ */
+public class JavaApplication1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    carro mazda = new carro();
+    
+    mazda.setMarca();
+    
+        System.out.println(mazda.getMarca());
+        carroVolador carro = new carroVolador();
+        carro.setEsta_volando (setEsta_volando false);
+        if(carro.esta_volando()){
+            System.out.println("Esta volando");
+            
+        }
+        else 
+            System.out.println("No esta volando");
+                    
+    }
+    
+}
+
+
